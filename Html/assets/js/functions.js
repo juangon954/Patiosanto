@@ -10,7 +10,7 @@
 	7.  COUNTER UP
 	8.  COUNTDOWN DATE
 	9.  AJAX MAILCHIMP
-	10. AJAX CAMPAIGN MONITOR 
+	10. AJAX CAMPAIGN MONITOR
 	11. OWL CAROUSEL
 	12. MAGNIFIC POPUP
 	13. MAGNIFIC POPUP VIDEO
@@ -70,7 +70,7 @@
     });
 
     /* ------------------  NAV MODULE  ------------------ */
-	
+
     var $moduleIcon = $(".module-icon"),
         $moduleCancel = $(".module-cancel");
     $moduleIcon.on("click", function(e) {
@@ -452,12 +452,12 @@
     });
 
     /* ------------------  FOLLOW INSTAGRAM ------------------ */
-	
+
     var instafeedModule = $('#instafeedModule').length,
         instafeedSidebar = $('#instafeedSidebar').length,
         instafeedSection = $('#instafeedSection').length,
         instafeedFooter = $('#instafeedFooter').length,
-        InstaUserID = '6069962191',
+        InstaUserID = 'https://www.instagram.com/patiosanto/',
         /*YOUR_USER_ID*/
         InstaAccessToken = '6069962191.1677ed0.2378d7ca8d274dae89847215f19cc93f'; /*YOUR_ACCESS_TOKEN*/
     if (instafeedModule > 0) {
@@ -643,7 +643,7 @@
 
 
     /* ------------------ COLUMN HEIGHT ------------------ */
-	
+
     $(window).on("load", function() {
 
         var comHeight = $(".comm-height"),
